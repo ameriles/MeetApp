@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
@@ -10,5 +10,7 @@
 
     <color name="primary">#282330</color>
     <color name="primary_dark">#201c26</color>
-    <color name="accent">#f2727a</color>
+    <color name="accent">#ffffff</color>
+
+    <color name="separator">#aaaaaa</color>
 </resources>

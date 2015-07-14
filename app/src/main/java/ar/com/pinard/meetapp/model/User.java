@@ -14,7 +14,7 @@ public class User {
 
     private String mImageUri;
 
-    private Date mLastConnection;
+    private Date mLastMeeting;
 
     public String getId() {
         return mId;
@@ -24,10 +24,11 @@ public class User {
         return mNickname;
     }
 
-    public String getmImageUri() {
+    public String getImageUri() {
         return mImageUri;
     }
-    public Date getLastConnection() {
-        return mLastConnection;
+
+    public Date getLastMeeting() {
+        return mLastMeeting;
     }
 }
